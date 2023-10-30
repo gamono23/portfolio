@@ -3,6 +3,7 @@
     <NuxtLayout></NuxtLayout>
     <NuxtPage />
     <img src="http://ghchart.rshah.org/gamono23" alt="gamono23's Github chart" class="chart"/>
+    <a rel="me" href="https://mastodon.social/@gamono">Mastodon</a>
     <about></about>
     <projects></projects>
   </div>
@@ -22,5 +23,8 @@
 }
 body{
   background-color: rgb(255, 209, 218);
+}
+#me{
+display: none;
 }
 </style>
